@@ -74,14 +74,9 @@
 							
 								
 								
-								<li>
-									<a href="<?php echo base_url(); ?>vigentes" class="">Promociones Vigentes</a> 
-								</li>
 								
-								<li>
-									<a href="<?php echo base_url(); ?>ganadores" class="">Ganadores</a> 
-								</li>
-
+								
+								
 			<?php if ($this->session->userdata('session_participante') == true) { ?>
 			<!-- <li>
 				<a href="<?php echo base_url(); ?>record/<?php echo $this->session->userdata('id_participante'); ?>" >

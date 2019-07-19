@@ -62,7 +62,10 @@
 					
              <?php } ?> 
 
-			
+			<li>
+									<a href="<?php echo base_url(); ?>" class="">Inicio</a> 
+								</li>
+
 			<li>
 									<a href="<?php echo base_url(); ?>mecanica" class="">mecánica y premios</a> 
 								</li>

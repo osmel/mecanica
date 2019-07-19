@@ -3,18 +3,13 @@
 
 
 
-$route['default_controller']   = 'registro/index';
+$route['default_controller']   = 'registro/mecanica1';
 $route['404_override'] 		   = '';
 
 $route['vigentes'] 		   = 'registro/vigentes';
 $route['ganadores'] 	= 'home/ganadores';
 
 
-///////////////////////////////////////Landings/////////////////////////////////////////////
-$route['activaciones/tijuana'] 	= 'registro/index';
-$route['activaciones/guadalajara'] 	= 'registro/index';
-$route['activaciones/cdmx'] 	= 'registro/index';
-$route['activaciones/monterey'] 	= 'registro/index';
 
 ///////////////////////////////////////MECANICA 1/////////////////////////////////////////////
 $route['mecanica1'] 	= 'registro/mecanica1';

@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
 <?php $this->load->view( 'home/header' ); ?>
-<?php $this->load->view( 'home/navbar' ); ?>
+<?php $this->load->view( 'mecanica1/navbar' ); ?>
  
  <?php 
 
