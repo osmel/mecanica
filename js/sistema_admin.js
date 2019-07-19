@@ -23,7 +23,7 @@ jQuery(document).ready(function($) {
 						spinner.stop();
 						jQuery('#foo').css('display','none');
 
-						window.location.href = '/ftg234aslw';
+						window.location.href = '/admin';
 				}
 			}
 		});
