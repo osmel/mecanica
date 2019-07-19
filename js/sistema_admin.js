@@ -23,7 +23,7 @@ jQuery(document).ready(function($) {
 						spinner.stop();
 						jQuery('#foo').css('display','none');
 
-						window.location.href = '/admin';
+						window.location.href = '/nest20197p2/admin';
 				}
 			}
 		});
@@ -80,7 +80,7 @@ jQuery('#tabla_usuarios').dataTable( {
 		"processing": true,
 		"serverSide": true,
 		"ajax": {
-	            	"url" : "/admin/procesando_usuarios",
+	            	"url" : "/nest20197p2/procesando_usuarios",
 	         		"type": "POST",
 	         		
 	     },   
@@ -200,7 +200,7 @@ jQuery('#tabla_acceso_usuario').dataTable( {
 		"processing": true,
 		"serverSide": true,
 		"ajax": {
-	            	"url" : "/admin/procesando_historico_accesos",
+	            	"url" : "/nest20197p2/procesando_historico_accesos",
 	         		"type": "POST",
 	         		
 	     },   
@@ -305,7 +305,7 @@ jQuery('#tabla_listado_completo').dataTable( {
 		"processing": true,
 		"serverSide": true,
 		"ajax": {
-	            	"url" : "/admin/procesando_participantes_unico",
+	            	"url" : "/nest20197p2/procesando_participantes_unico",
 	         		"type": "POST",
 	         		
 	     },   
@@ -482,7 +482,7 @@ jQuery('#tabla_participantes_unicos').dataTable( {
 		"processing": true,
 		"serverSide": true,
 		"ajax": {
-	            	"url" : "/admin/procesando_participantes_unico",
+	            	"url" : "/nest20197p2/procesando_participantes_unico",
 	         		"type": "POST",
 	         		
 	     },   
@@ -659,7 +659,7 @@ jQuery('#tabla_participantes').dataTable( {
 		"processing": true,
 		"serverSide": true,
 		"ajax": {
-	            	"url" : "/admin/procesando_participantes",
+	            	"url" : "/nest20197p2/procesando_participantes",
 	         		"type": "POST",
 	     },   
 		"language": {  //tratamiento de lenguaje
@@ -878,7 +878,7 @@ jQuery('#tabla_detalle_participantes').dataTable( {
 		"processing": true,
 		"serverSide": true,
 		"ajax": {
-	            	"url" : "/admin/procesando_detalle_participantes",
+	            	"url" : "/nest20197p2/procesando_detalle_participantes",
 	         		"type": "POST",
 	         		"data": function ( d ) {
 	         		 	d.id = jQuery('#id').val();  
@@ -1003,7 +1003,7 @@ jQuery('#tabla_participantes_cupones').dataTable( {
 		"processing": true,
 		"serverSide": true,
 		"ajax": {
-	            	"url" : "/admin/procesando_participante_cupones",
+	            	"url" : "/nest20197p2/procesando_participante_cupones",
 	         		"type": "POST",
 	     },   
 		"language": {  //tratamiento de lenguaje
@@ -1084,7 +1084,7 @@ jQuery('#tabla_bitacora_participante').dataTable( {
 		"processing": true,
 		"serverSide": true,
 		"ajax": {
-	            	"url" : "/admin/procesando_historico_participantes",
+	            	"url" : "/nest20197p2/procesando_historico_participantes",
 	         		"type": "POST",
 	         		
 	     },   
@@ -1180,7 +1180,7 @@ jQuery('#tabla_cat_premios').dataTable( {
     "processing": true,
     "serverSide": true,
     "ajax": {
-                "url" : "/admin/procesando_cat_premios",
+                "url" : "/nest20197p2/procesando_cat_premios",
               "type": "POST",
               
        },   
@@ -1282,7 +1282,7 @@ jQuery('#tabla_cat_imagenes').dataTable( {
     "processing": true,
     "serverSide": true,
     "ajax": {
-                "url" : "/admin/procesando_cat_imagenes",
+                "url" : "/nest20197p2/procesando_cat_imagenes",
               "type": "POST",
               
        },   
@@ -1384,7 +1384,7 @@ jQuery('#tabla_cat_litrajes').dataTable( {
     "processing": true,
     "serverSide": true,
     "ajax": {
-                "url" : "/admin/procesando_cat_litrajes",
+                "url" : "/nest20197p2/admin/procesando_cat_litrajes",
               "type": "POST",
               
        },   
@@ -1485,7 +1485,7 @@ jQuery('#tabla_cat_litrajes').dataTable( {
     "processing": true,
     "serverSide": true,
     "ajax": {
-                "url" : "/admin/procesando_cat_estados",
+                "url" : "/nest20197p2/procesando_cat_estados",
               "type": "POST",
               
        },   
