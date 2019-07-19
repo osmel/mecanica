@@ -93,7 +93,7 @@ jQuery( document ).ready(function() {
 		 
 
  					 jQuery.ajax({ //guardar en la cookie el conteo
-                            url : '/enviando_correo_cupon',
+                            url : '/nest20197p2/enviando_correo_cupon',
                             data : { 
                             	   codigo: jQuery(this).attr('valor').replace(/\.png$/, ""),
                                    url_imagen: jQuery(this).attr('valor'),
@@ -167,7 +167,7 @@ jQuery( document ).ready(function() {
 						jQuery('#foo').css('display','none');
 						//ya no redirecciona directo a registro ticket
 						//alert('/'+data.redireccion);
-						window.location.href = '/'+data.redireccion;    //$catalogo;						
+						window.location.href = '/nest20197p2/'+data.redireccion;    //$catalogo;						
 
 						/*		
 						//new ok 
@@ -190,7 +190,7 @@ jQuery( document ).ready(function() {
 
 		//sino comparte en facebook entonces redirige directamente al ticket sin guardar redes
 	   jQuery("body").on('hide.bs.modal','#modalMessage_face',function(e){    
-                window.location.href = '/registro_ticket';                           
+                window.location.href = '/nest20197p2/registro_ticket';                           
        }); 
 
 
@@ -233,7 +233,7 @@ jQuery( document ).ready(function() {
             jQuery("body").on('hide.bs.modal','#modalMessage3',function(e){    
                 $catalogo = jQuery(this).attr('direccion'); //e.target.name;
                 //alert($catalogo);
-                window.location.href = '/'+$catalogo;                           
+                window.location.href = '/nest20197p2/'+$catalogo;                           
                 //window.location.href = '/';
             }); 
 
@@ -243,7 +243,7 @@ jQuery( document ).ready(function() {
                 
                   e.preventDefault();
                     jQuery.ajax({ //guardar en la cookie el conteo
-                            url : '/respuesta_juego',
+                            url : '/nest20197p2/respuesta_juego',
                             data : { 
                                    figura: $(this).attr('fig'),
                                 respuesta: $(this).attr('resp'),
@@ -384,7 +384,7 @@ var hash_url = window.location.pathname;
 						$catalogo = e.target.name;
 						spinner.stop();
 						jQuery('#foo').css('display','none');
-						window.location.href = '/'+$catalogo;				
+						window.location.href = '/nest20197p2/'+$catalogo;				
 						
 
 				}
@@ -417,7 +417,7 @@ var hash_url = window.location.pathname;
 						$catalogo = e.target.name;
 						spinner.stop();
 						jQuery('#foo').css('display','none');
-						window.location.href = '/'+$catalogo;				
+						window.location.href = '/nest20197p2/'+$catalogo;				
 						
 
 				}

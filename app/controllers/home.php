@@ -445,7 +445,7 @@ public function	proc_modal_felicidades(){
 					}	
 				} 
 				 //redirect('/registro_ticket');  //comparta o no va a ir al registro de ticket
-				redirect('/record/'.$this->session->userdata('id_participante'));
+				redirect('/nest20197p2/record/'.$this->session->userdata('id_participante'));
 			}	
 
 	}
@@ -456,7 +456,7 @@ public function	proc_modal_felicidades(){
 			$data["id_participante"] = $id_participante;
 			$dato 		=   $this->modelo_registro->record_personal($data);
 			//print_r($dato);die;
-			$this->load->view( 'juegos/record',$dato );
+			$this->load->view( '/juegos/record',$dato );
 		}	
 	}	
 

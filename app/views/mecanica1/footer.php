@@ -33,7 +33,7 @@ table{
 </footer>
 <script>
 window.oncontextmenu = function() {
-return false;
+//return false;
 } </script>
 
 <div class="modal fade" id="aviso" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

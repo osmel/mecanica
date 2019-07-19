@@ -20,10 +20,7 @@
 		</div> 
 	</div>
 </footer>
-<script>
-window.oncontextmenu = function() {
-//return false;
-} </script>
+
 
 
 
