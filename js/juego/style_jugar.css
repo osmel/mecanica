@@ -1,0 +1,82 @@
+body {
+  
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.wheelContainer{
+  position:relative;
+  width:100%;
+  height:100%;
+  max-width:1000px;
+  margin-left:auto;
+  margin-right:auto;
+  /*left:50%;
+  top:50%;
+  transform: translate(-50%, -50%) ; */
+}
+.wheelContainer{
+  
+}
+/* .wheelText tspan{
+  text-anchor: start;
+} */
+
+.wheelSVG{
+  position:absolute;
+  /* width:100%;
+  height:100%;   visibility:hidden;*/
+
+  overflow:visible;
+  
+}
+.peg{
+  visibility:hidden;
+}
+.wheelOutline, .valueContainer, .toast, .centerCircle{
+  pointer-events:none;
+}
+.toast{
+  display: none;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 480px) {
+  .toast p, .toast span{
+    font-size:18px;
+    line-height:18px;
+  }
+}
+@media only screen and (min-width : 481px) and (max-width : 800px) {
+  .toast p, .toast span{
+    font-size:38px;
+    line-height:38px;
+  }
+}
+
+@media only screen and (min-width : 801px)  {
+  .toast p, .toast span{
+    font-size:20px;
+    line-height:23px;
+  }
+}
+
+@media only screen and (max-width : 768px)  {
+  
+}
+
+
+@media only screen and (max-height : 480px) {
+  .toast p, .toast span{
+    font-size:33px;
+    line-height:35px;
+  }
+}
+.toast p{
+  font-size: 200px;
+}

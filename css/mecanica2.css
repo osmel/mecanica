@@ -1,0 +1,313 @@
+@charset 'utf-8';
+
+@font-face {
+    font-family: 'Sofia';
+    src: url("fonts/BentonSans Comp Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Intersate';
+    src: url("fonts/BentonSans Comp Medium.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Bebasnormalmore';
+    src: url("fonts/BentonSans Comp Medium.otf") format("opentype");
+}
+@font-face {
+    font-family: 'Euphori';
+    src: url("fonts/BentonSans Comp Medium.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Bebasbold';
+    src: url("fonts/BentonSans Comp Medium.otf") format("opentype");
+}
+@font-face {
+    font-family: 'Bebasnormal';
+    src: url("fonts/BentonSans Comp Medium.otf") format("opentype");
+}
+@font-face {
+    font-family: 'Bebasregular';
+    src: url("fonts/BentonSans Comp Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: 'Bebaslig';
+    src: url("fonts/BentonSans Comp Light.otf") format("opentype");
+}
+footer a{
+  font-family: Bebasregular;
+  font-size: 22px;
+}
+.vigencia{
+  font-family: Helvetica;
+}
+footer .vig1{
+      font-size: 17px !important;
+}
+footer span{
+  color: #ffffff;
+   font-size: 17px !important;
+}
+p{
+  font-family: Bebaslig;
+  font-size: 18px;
+  color: #ffffff;
+}
+h1 {
+  color: #ffffff;
+    text-transform: uppercase;
+        font-size: 47px;
+    font-family: Bebasbold;
+    text-align: center; 
+}
+h2 {
+  color: #ffffff;
+    text-transform: uppercase;
+        font-size: 40px;
+    font-family: Bebasbold;
+    text-align: center; 
+}
+
+
+.contenedordecupones{
+	    background-color: #389e23;
+    padding: 67px 37px;
+    border: 14px solid #ffffff;
+        margin-bottom: 20px;
+}
+.contenedorcupon2{
+	border: 14px solid #ffffff;
+}
+.mecanica1{
+	padding: 67px 38px !important;
+}
+.imagendecupon img{
+	max-width: 72%;
+}
+.separador{
+	padding: 30px 0px;
+}
+.contenedordecupones input{
+	    color: #4c9e45;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 22px 10px;
+    border-radius: 12px;
+    border: 0px;
+    text-align: center;
+}
+.contenedordecupones input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #4c9e45;
+}
+.avisos{
+	padding-left: 50px;
+}
+
+
+/* The container */
+.contenedor {
+        display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #ffffff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.contenedor a{
+	color: #ffffff;
+}
+/* Hide the browser's default checkbox */
+.contenedor input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 7px;
+}
+
+/* On mouse-over, add a grey background color */
+.contenedor:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.contenedor input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.contenedor input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.contenedor .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.botonbutton{
+	max-width: 75%;
+}
+.btndescarga1{
+	color: yellow;
+    width: 100%;
+    font-size: 18px;
+    padding: 15px 0px;
+    display: inline-block;
+    text-decoration: underline;
+}
+.btndescarga1:hover{
+	color: yellow;
+}
+@media screen and (max-width: 640px) {
+  .imagendecupon {
+    padding: 0px;  
+    padding-top: 140px;
+  }
+  .navbar-brand img{
+  	width: 140px !important;
+  }
+  .centralhome {
+    padding: 0px 0px 40px 0px;
+}
+  .centralhome.imagendecupon{
+  	padding-top: 120px;
+  }
+  .imagendecupon img{
+  	max-width: 100%;
+  }
+  .codigodebar {
+    bottom: 40px;
+   
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+#map_canvas{
+  width: 100% !important;
+}
+}
+ 
+
+#map-canvas{
+  height: 500px;
+  width: 100%;
+}
+
+.my-custom-class-for-label {
+  width: 50px; height: 20px;
+  
+  border: 1px solid #eb3a44;
+  border-radius: 5px;
+  
+  background: #fee1d7;
+  color: #eb3a44;
+  text-align: center;
+  line-height: 20px;
+  
+  font-weight: bold;
+  font-size: 14px;
+}
+.btncupon{
+      background-color: transparent;
+    border: 0px;
+}
+.avisos{
+  font-family: Bebaslig;
+}
+button.envio_correo{
+      background-color: transparent;
+    border: 0px;
+    width: 100%;
+    font-size: 18px;
+    padding: 15px 0px;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.codigodebar{
+      bottom: 57px;
+   /*width: 44% !important;
+    height: 85px;
+    position: absolute;*/
+    padding: 6px;
+    background-color: white;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.contcuponasd2{
+   background-color: white;
+}
+.contenedorcupon2{
+  display: none;
+  position: relative;
+}
+.tt-dropdown-menu,.tt-dataset-buscar_localizador,span.tt-dropdown-menu{
+  color: #000000 !important;
+  background-color: black !important;
+}
+.twitter-typeahead{
+  width: 100%;
+}
+
+@media screen and (max-width: 768px){
+  #map_canvas{
+  width: 100% !important;
+}
+.centralhome2{
+  padding: 0px;
+}
+}
+#map_canvas{
+  width: 100% !important;
+}
+.enviocu{
+      text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding: 17px 0px 0px 0px;
+    font-size: 23px;
+}
+.mostrars{
+  display: none;
+}
+
+@media screen and (max-width: 540px){
+   .modal-content {
+   
+    width: 96% !important;
+} 
+.modal-dialog{
+    width: 100% !important;
+}
+}
