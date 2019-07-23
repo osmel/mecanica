@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /*
-connestleyoxxotodosganan2019.com
+todosganan2019.com
 git remote add osmel https://github.com/osmel/mecanica.git
 git push -u osmel master
 
@@ -24,14 +24,14 @@ https://stackoverflow.com/questions/40997257/mysql-service-fails-to-start-hangs-
  sudo /etc/init.d/mysql start
 
 
-https://www.connestleyoxxotodosganan2019.com/7up/user_authentication
+https://www.todosganan2019.com/7up/user_authentication
 
-connestleyoxxotodosganan2019.com
+todosganan2019.com
 git remote add osmel https://github.com/osmel/mecanica.git
 git push -u osmel master
 
 
-https://www.connestleyoxxotodosganan2019.com/7up/user_authentication/logout
+https://www.todosganan2019.com/7up/user_authentication/logout
 
 */
 

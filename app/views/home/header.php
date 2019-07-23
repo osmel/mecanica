@@ -7,11 +7,11 @@
 	<title><?php echo $this->session->userdata('c2'); ?></title>
 	<link rel="icon" type="image/x-icon" href="<?php echo base_url(); ?>img/favicon.ico"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta property="og:url" content="https://www.connestleyoxxotodosganan2019.com" />
+   <meta property="og:url" content="https://www.todosganan2019.com" />
 	<meta property="fb:app_id" content="282773972567738" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Gana con 7uP" />	
-	<meta property="og:image" content="https://www.connestleyoxxotodosganan2019.com/img_facebook.jpg"/>
+	<meta property="og:image" content="https://www.todosganan2019.com/img_facebook.jpg"/>
 	<meta property="og:image:alt" content="imagea"/>
 	<meta property="og:description" content="Gana con 7uP"/>
 

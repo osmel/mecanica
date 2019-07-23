@@ -134,8 +134,8 @@ var $cantidad_puntos="1";
 				FB.ui({
 				      method: 'feed',
 				      name: 'Refréscate y gana con 7UP',
-				      link: 'https://www.connestleyoxxotodosganan2019.com/',
-				      picture: 'https://www.connestleyoxxotodosganan2019.com/img_facebook.jpg',
+				      link: 'https://www.todosganan2019.com/',
+				      picture: 'https://www.todosganan2019.com/img_facebook.jpg',
 				      caption: 'Participa y podrías ganar muchos premios',
 				      description: 'Refréscate y Gana con 7up'
 				    },
@@ -160,8 +160,8 @@ var $cantidad_puntos="1";
 				FB.ui({
 					      method: 'feed',
 					      name: 'Refréscate y Gana con 7up',
-					      link: 'https://www.connestleyoxxotodosganan2019.com/',
-					      picture: 'https://www.connestleyoxxotodosganan2019.com/img_facebook.jpg',
+					      link: 'https://www.todosganan2019.com/',
+					      picture: 'https://www.todosganan2019.com/img_facebook.jpg',
 					      caption: 'Participa y podrías ganar muchos premios',
 					      description: 'Refréscate y Gana con 7up'
 				       },
@@ -182,8 +182,8 @@ var $cantidad_puntos="1";
 				FB.ui({
 					      method: 'feed',
 					      name: 'Refréscate y Gana con 7up',
-					      link: 'https://www.connestleyoxxotodosganan2019.com/',
-					      picture: 'https://www.connestleyoxxotodosganan2019.com/img_facebook.jpg',
+					      link: 'https://www.todosganan2019.com/',
+					      picture: 'https://www.todosganan2019.com/img_facebook.jpg',
 					      caption: 'Participa y podrías ganar muchos premios',
 					      description: 'Refréscate y Gana con 7up'
 				      },

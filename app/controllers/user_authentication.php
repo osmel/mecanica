@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /*
-connestleyoxxotodosganan2019.com
+todosganan2019.com
 git remote add osmel https://github.com/osmel/mecanica.git
 git push -u osmel master
 
@@ -15,14 +15,14 @@ sudo apt-get purge php7.*
  apt-get autoremove php7.*
  apt-get install  php5.6-mcrypt
 
-https://www.connestleyoxxotodosganan2019.com/7up/user_authentication
+https://www.todosganan2019.com/7up/user_authentication
 
-connestleyoxxotodosganan2019.com
+todosganan2019.com
 git remote add osmel https://github.com/osmel/mecanica.git
 git push -u osmel master
 
 
-https://www.connestleyoxxotodosganan2019.com/7up/user_authentication/logout
+https://www.todosganan2019.com/7up/user_authentication/logout
 
 desinstalar mysql y mariadb
 https://www.eninsoft.com/eliminar-completamente-mariadb-o-mysql-en-debian9/

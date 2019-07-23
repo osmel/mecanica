@@ -26,7 +26,7 @@ $config['google_client_secret']    = 'SZvaqeKpnId4Qw5V9V5yTBvL';
 $config['google_client_id']        = '589167471549-m14jsmtcdg5q477jdfrn195l7kfgmtkf.apps.googleusercontent.com';
 $config['google_client_secret']    =  'tcrQtIp7IPx9TFpGCR54xCTe';
 
-$config['google_redirect_url']    	    = 'https://www.connestleyoxxotodosganan2019.com/7up/user_authentication/';
+$config['google_redirect_url']    	    = 'https://www.todosganan2019.com/7up/user_authentication/';
 //base_url().'user_authentication/';
 $config['google_application_name']      =''; //Cliente web 1
 $config['google_api_key']    			=   '';

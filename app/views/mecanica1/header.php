@@ -14,11 +14,11 @@
 	<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.js"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	
-      <meta property="og:url" content="https://www.connestleyoxxotodosganan2019.com/" />
+      <meta property="og:url" content="https://www.todosganan2019.com/" />
 	<meta property="fb:app_id" content="282773972567738" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Gana con 7uP" />	
-	<meta property="og:image" content="https://www.connestleyoxxotodosganan2019.com/img_facebook.jpg"  /> 
+	<meta property="og:image" content="https://www.todosganan2019.com/img_facebook.jpg"  /> 
 	<meta property="og:image:alt" content="imagea"/>
 	<meta property="og:description" content="Gana con 7uP"/>
 
