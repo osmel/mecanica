@@ -23,9 +23,12 @@ $config['google_client_id']        = '1040915293866-nt4vjl1jbt89b8c5iv2uqsu2pdad
 $config['google_client_secret']    = 'SZvaqeKpnId4Qw5V9V5yTBvL';
 */
 
-$config['google_client_id']        = '589167471549-m14jsmtcdg5q477jdfrn195l7kfgmtkf.apps.googleusercontent.com';
+/*$config['google_client_id']        = '589167471549-m14jsmtcdg5q477jdfrn195l7kfgmtkf.apps.googleusercontent.com';
 $config['google_client_secret']    =  'tcrQtIp7IPx9TFpGCR54xCTe';
+*/
 
+$config['google_client_id']        = '586798865110-9gkrh12ap0apga5i7v9v449uia9ugk5m.apps.googleusercontent.com';
+$config['google_client_secret']    =  'SCkhDT45UBssg6y58C0YCJbF';
 $config['google_redirect_url']    	    = 'https://www.todosganan2019.com/7up/user_authentication/';
 //base_url().'user_authentication/';
 $config['google_application_name']      =''; //Cliente web 1
