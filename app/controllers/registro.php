@@ -9,6 +9,17 @@ class Registro extends CI_Controller {
 		$this->load->model('admin/catalogo', 'catalogo');  
 		$this->load->library(array('email')); 
 		$this->tiempo_comienzo      = "00:10";
+
+
+		 if ( !class_exists('User_Authentication')) {
+        	//print_r(APPPATH.'controllers/User_Authentication'.EXT);
+            require_once(APPPATH.'controllers/user_authentication'.EXT);
+            $this->gmail = new user_authentication();
+        }
+        //$this->gmail = new user_authentication();
+
+		//print_r( $this->gmail->osmel() );
+ 		//die;
 	}
 
 	public function index(){
@@ -509,12 +520,12 @@ function validar_registros(){
 									
 									$desde = $this->session->userdata('c1');
 									$esp_nuevo = $usuario['email'];
-									
+									/*
 									$this->email->from('admin@ganacon7up.com', 'Refréscate y gana con 7up');
 									$this->email->to( $esp_nuevo );
 									$this->email->subject('Gracias por registrarte a Refréscate y gana con 7up'); //.$this->session->userdata('c2')
 									$this->email->message( $this->load->view('admin/correos/alta_usuario', $dato, TRUE ) );
-									$this->email->send();
+									$this->email->send();*/
 
 									
 									//envio de correo para notificar alta en usuarios del sistema
@@ -709,6 +720,8 @@ function validar_registros(){
   
  function ingresar_usuario($mecanica){
  	    //$mecanica=1;
+
+   
  		$data['mecanica']= 1; //base64_decode($mecanica);
  		$this->session->set_userdata('mecanica',$mecanica );
 		if ($this->session->userdata( 'session_participante' ) == TRUE )    { //ya esta registrado
@@ -716,6 +729,10 @@ function validar_registros(){
 			 redirect('/registro_ticket/'.$mecanica);
 		} else {
 			
+			
+			//este es para gmail
+			$data['loginURL'] = $this->gmail->index(); 
+
 			$this->load->view( 'registros/login',$data);
 		}
  }

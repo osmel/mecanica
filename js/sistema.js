@@ -93,7 +93,7 @@ jQuery( document ).ready(function() {
 		 
 
  					 jQuery.ajax({ //guardar en la cookie el conteo
-                            url : '/nest20197p2/enviando_correo_cupon',
+                            url : '/7up/enviando_correo_cupon',
                             data : { 
                             	   codigo: jQuery(this).attr('valor').replace(/\.png$/, ""),
                                    url_imagen: jQuery(this).attr('valor'),
@@ -167,7 +167,7 @@ jQuery( document ).ready(function() {
 						jQuery('#foo').css('display','none');
 						//ya no redirecciona directo a registro ticket
 						//alert('/'+data.redireccion);
-						window.location.href = '/nest20197p2/'+data.redireccion;    //$catalogo;						
+						window.location.href = '/7up/'+data.redireccion;    //$catalogo;						
 
 						/*		
 						//new ok 
@@ -190,7 +190,7 @@ jQuery( document ).ready(function() {
 
 		//sino comparte en facebook entonces redirige directamente al ticket sin guardar redes
 	   jQuery("body").on('hide.bs.modal','#modalMessage_face',function(e){    
-                window.location.href = '/nest20197p2/registro_ticket';                           
+                window.location.href = '/7up/registro_ticket';                           
        }); 
 
 
@@ -222,7 +222,7 @@ jQuery( document ).ready(function() {
 						$catalogo = e.target.name;
 						spinner.stop();
 						jQuery('#foo').css('display','none');
-						window.location.href = '/'+data.redireccion;    //$catalogo;				
+						window.location.href = '/7up/'+data.redireccion;    //$catalogo;				
 				}
 			} 
 		});
@@ -233,7 +233,7 @@ jQuery( document ).ready(function() {
             jQuery("body").on('hide.bs.modal','#modalMessage3',function(e){    
                 $catalogo = jQuery(this).attr('direccion'); //e.target.name;
                 //alert($catalogo);
-                window.location.href = '/nest20197p2/'+$catalogo;                           
+                window.location.href = '/7up/'+$catalogo;                           
                 //window.location.href = '/';
             }); 
 
@@ -243,7 +243,7 @@ jQuery( document ).ready(function() {
                 
                   e.preventDefault();
                     jQuery.ajax({ //guardar en la cookie el conteo
-                            url : '/nest20197p2/respuesta_juego',
+                            url : '/7up/respuesta_juego',
                             data : { 
                                    figura: $(this).attr('fig'),
                                 respuesta: $(this).attr('resp'),
@@ -255,7 +255,7 @@ jQuery( document ).ready(function() {
                                   localStorage.setItem('virada',  0 );
 
                                   //redireccionar a record
-                                  //window.location.href = '/'+data.redireccion;        
+                                  //window.location.href = '/7up/'+data.redireccion;        
 
                                     //levantar la modal de felicidades
                                     var url = "/proc_modal_felicidades";  
@@ -384,7 +384,7 @@ var hash_url = window.location.pathname;
 						$catalogo = e.target.name;
 						spinner.stop();
 						jQuery('#foo').css('display','none');
-						window.location.href = '/nest20197p2/'+$catalogo;				
+						window.location.href = '/7up/'+$catalogo;				
 						
 
 				}
@@ -417,7 +417,7 @@ var hash_url = window.location.pathname;
 						$catalogo = e.target.name;
 						spinner.stop();
 						jQuery('#foo').css('display','none');
-						window.location.href = '/nest20197p2/'+$catalogo;				
+						window.location.href = '/7up/'+$catalogo;				
 						
 
 				}
@@ -437,7 +437,7 @@ jQuery("body").on('hide.bs.modal','#modalMessage[ventana="redi_ticket"]',functio
 						} else {
 							$catalogo = jQuery(this).attr('valor'); //e.target.name;
 						}
-						window.location.href = '/'+$catalogo;						    
+						window.location.href = '/7up/'+$catalogo;						    
 
 
 });
@@ -455,7 +455,7 @@ jQuery("body").on('hide.bs.modal','#modalMessage[ventana="redi_ticket"]',functio
 
 	jQuery("body").on('hide.bs.modal','#modalMessage[ventana="facebook"]',function(e){	
 		$catalogo = jQuery(this).attr('valor'); //e.target.name;
-		window.location.href = '/'+$catalogo;						    
+		window.location.href = '/7up/'+$catalogo;						    
 	});	
 
 

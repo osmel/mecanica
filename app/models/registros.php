@@ -430,6 +430,11 @@ public function check_12horas($email) {
         }
 
 
+
+    
+
+
+
      //checar el loguin y recoger datos de usuario registrado
     public function check_login_nick($data){
           $this->db->select("id", FALSE);           

@@ -108,7 +108,7 @@ var $cantidad_puntos="1";
 
 /*   window.fbAsyncInit = function() {
 	    FB.init({
-	      appId      : '1577659172343071',
+	      appId      : '282773972567738',
 		    cookie     : true,  // enable cookies to allow the server to access 
 	                            // the session
 	        xfbml      : true,  // parse social plugins on this page
@@ -118,7 +118,7 @@ var $cantidad_puntos="1";
 	    }),*/
    window.fbAsyncInit = function() {
 	    FB.init({
-	      appId      : '1577659172343071',
+	      appId      : '282773972567738',
 	      cookie     : false, 
 	      status     : true,
 	      version    : 'v2.8' // use graph api version 2.8
@@ -134,8 +134,8 @@ var $cantidad_puntos="1";
 				FB.ui({
 				      method: 'feed',
 				      name: 'Refréscate y gana con 7UP',
-				      link: 'https://www.ganacon7up.com/',
-				      picture: 'https://www.ganacon7up.com/img_facebook.jpg',
+				      link: 'https://www.connestleyoxxotodosganan2019.com/',
+				      picture: 'https://www.connestleyoxxotodosganan2019.com/img_facebook.jpg',
 				      caption: 'Participa y podrías ganar muchos premios',
 				      description: 'Refréscate y Gana con 7up'
 				    },
@@ -160,8 +160,8 @@ var $cantidad_puntos="1";
 				FB.ui({
 					      method: 'feed',
 					      name: 'Refréscate y Gana con 7up',
-					      link: 'https://www.ganacon7up.com/',
-					      picture: 'https://www.ganacon7up.com/img_facebook.jpg',
+					      link: 'https://www.connestleyoxxotodosganan2019.com/',
+					      picture: 'https://www.connestleyoxxotodosganan2019.com/img_facebook.jpg',
 					      caption: 'Participa y podrías ganar muchos premios',
 					      description: 'Refréscate y Gana con 7up'
 				       },
@@ -182,8 +182,8 @@ var $cantidad_puntos="1";
 				FB.ui({
 					      method: 'feed',
 					      name: 'Refréscate y Gana con 7up',
-					      link: 'https://www.ganacon7up.com/',
-					      picture: 'https://www.ganacon7up.com/img_facebook.jpg',
+					      link: 'https://www.connestleyoxxotodosganan2019.com/',
+					      picture: 'https://www.connestleyoxxotodosganan2019.com/img_facebook.jpg',
 					      caption: 'Participa y podrías ganar muchos premios',
 					      description: 'Refréscate y Gana con 7up'
 				      },

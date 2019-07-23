@@ -5,12 +5,12 @@ $(document).ready(function($) {
 	window.fbAsyncInit = function() {
 		FB.init({
 			
-		appId      : '1577659172343071',
+		appId      : '282773972567738',
         cookie     : true,  // enable cookies to allow the server to access 
                             // the session
         xfbml      : true,  // parse social plugins on this page
         version    : 'v3.0', // use graph api version 2.8
-        app_secret: 'f60d230073b21fb0dbefb238e634285a',
+        app_secret: 'ff25a4488f8d4a0905f4f0db17be0738',
 		status  : true // Check for user login status right away
 		});
 

@@ -18,6 +18,7 @@ class Home extends CI_Controller {
 
 
    function registro_ticket($mecanica){
+
    	    $data['mecanica'] = 1; //(int)base64_decode($mecanica);
    	    //$data['estados']   = $this->modelo_registro->listado_estados();
    	    $data['cadenas']   = $this->modelo_registro->listado_cadenas();
@@ -28,6 +29,9 @@ class Home extends CI_Controller {
    	    $this->session->set_userdata('mecanica',$mecanica );
 
   		if($this->session->userdata('session_participante') === TRUE ){
+
+  			//print_r(10);die;
+
   			if ($this->session->userdata('num_ticket_participante')) {
   					redirect('/tarjetas');
   			} else {

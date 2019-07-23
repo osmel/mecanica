@@ -58,7 +58,7 @@ function myGameEnd(e) {
    valor=e.results[0].userData.score;
    //alert("si");
                         jQuery.ajax({ //guardar en la cookie el conteo
-                                url : '/nest20197p2/respuesta_tarjeta',
+                                url : '/7up/respuesta_tarjeta',
                                 data : { 
                                        //figura: $(this).parent().attr('carta'),
                                        valor: valor, //$(this).parent().attr('valor'),
@@ -70,7 +70,7 @@ function myGameEnd(e) {
                                         if ( parseInt(localStorage.getItem('virada')) >=1) {
                                             
                                             localStorage.setItem('virada',  0 );
-                                            var url = "/nest20197p2/proc_modal_felicidades";  
+                                            var url = "/7up/proc_modal_felicidades";  
                                             
                                             jQuery('#modalMessage3').modal({
                                                 backdrop: 'static',
@@ -106,7 +106,7 @@ function init() {
                // alert('aa');
                 //localStorage.setItem('virada',  0 );
                 //alert('aa');
-                var url = "/nest20197p2/proc_modal_felicidades";  
+                var url = "/7up/proc_modal_felicidades";  
                 
                 jQuery('#modalMessage3').modal({
                     backdrop: 'static',

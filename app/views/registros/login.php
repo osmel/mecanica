@@ -82,6 +82,12 @@
 								</div>
 
 
+								<a href="<?php echo $loginURL;?>">
+									<!-- logueate desde google -->
+									<img src="<?php echo base_url('img/home/regisrarface.png'); ?>" />
+								</a>
+
+
 
 						<!-- 	<div class="col-md-12 text-center" style="margin-top:20px;">
 								<a href="<?php echo base_url(); ?>recuperar_participante">¿Olvidaste tu contraseña?</a>

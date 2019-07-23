@@ -9,11 +9,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>-->
     
-      <meta property="og:url" content="https://www.ganacon7up.com/" />
-	<meta property="fb:app_id" content="1577659172343071" />
+      <meta property="og:url" content="https://www.connestleyoxxotodosganan2019.com/" />
+	<meta property="fb:app_id" content="282773972567738" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Gana con 7uP" />	
-	<meta property="og:image" content="https://www.ganacon7up.com/img_facebook.jpg"  /> 
+	<meta property="og:image" content="https://www.connestleyoxxotodosganan2019.com/img_facebook.jpg"  /> 
 	<meta property="og:image:alt" content="imagea"/>
 	<meta property="og:description" content="Gana con 7uP"/>
 
